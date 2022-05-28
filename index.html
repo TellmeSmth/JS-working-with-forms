@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+
+<body>
+<section class="form-section container d-flex justify-content-evenly mt-5">
+<form class="form-section__main-form" action="#" id="mainForm" method="post">
+    <div class="input-group mb-3">
+        <span class="input-group-text">First and last name</span>
+        <input type="text" aria-label="First name" class="form-control item__first" required name="user__Name" id="first">
+     </div>
+
+    <div class="mb-3">
+        <label for="inp_mail" class="form-label">Email address</label>
+        <input type="email" class="form-control item__mail" id="inp_mail" placeholder="name@example.com" required name="user__Email">
+    </div>
+
+    <div class="mb-3">
+        <label for="inp_order" class="form-label">Enter your order</label>
+        <input type="text" class="form-control item__order" id="inp_order" placeholder="Enter your order" required name="user__order">
+    </div>
+
+    <div class="d-flex flex-column align-items-center">
+        <button type="submit" class="btn btn-outline-primary">Ordering</button>
+    </div>
+</form>
+
+        <ul class="list-group list-group-flush col-7" id="order-list">
+<!--            <li class="list-group-item d-flex justify-content-around">-->
+<!--                <div class="">-->
+<!--                <p class="text-secondary user-firstname">Falonchi Falonchiev</p>-->
+<!--                <a href="mailto:" class="text-primary user-email">@email.com</a>-->
+<!--                <p class="text-info">Lorem ipsum.</p>-->
+<!--                </div>-->
+<!--                <button class="btn btn-success">Ok</button>-->
+<!--            </li>-->
+        </ul>
+</section>
+
+<script src="main.js"></script>
+</body>
+</html>
